@@ -13,7 +13,8 @@ jobs:
           run: ls -ltra
    
         - name: Welcome message
-          run: ./asciscript.sh
-
+          run: |
+            chmod 777 asciscript.sh
+            ./asciscript.sh
        
         
